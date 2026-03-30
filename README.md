@@ -1,4 +1,8 @@
 # Fabric-incremental-pipeline-project
+## Architecture Diagram
+
+![Fabric Incremental Pipeline Architecture](fabric-incremental-watermark-architecture.png)
+This architecture demonstrates a production-grade incremental ingestion framework in Microsoft Fabric pipelines using trigger().scheduledTime and a watermark control table to ensure deterministic execution windows and retry-safe data processing across Lakehouse layers.
 Built a production-safe incremental ingestion framework in Microsoft Fabric pipelines using trigger().scheduledTime and watermark tables to enable deterministic execution windows and reliable Lakehouse data processing.
 # Production-Grade Incremental Data Loading in Microsoft Fabric Pipelines
 ## Architecture Diagram
